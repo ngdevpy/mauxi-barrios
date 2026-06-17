@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F1E8DF;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#111;
+}
+
+.container{
+    max-width:450px;
+    margin:auto;
+    padding:30px 15px;
+}
+
+.logo{
+    width:220px;
+    display:block;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-top:15px;
+    font-size:38px;
+    font-family:Georgia, serif;
+    color:#5F7F10;
+}
+
+.profesion{
+    text-align:center;
+    color:#5F7F10;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:5px;
+}
+
+.descripcion{
+    text-align:center;
+    margin-top:15px;
+    line-height:1.6;
+    font-size:15px;
+    color:#444;
+}
+
+.sociales{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:30px 0;
+}
+
+.sociales a{
+    font-size:40px;
+    transition:.3s;
+    text-decoration:none;
+    color:#C05353;
+}
+
+.sociales a:hover{
+    transform:scale(1.15);
+}
+
+.card{
+    background:#ffffff;
+    border:2px solid #C05353;
+    border-radius:20px;
+    padding:15px;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    text-decoration:none;
+    color:#111;
+    box-shadow:6px 6px 0px #C05353;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.card img{
+    width:65px;
+    height:65px;
+    border-radius:12px;
+    object-fit:cover;
+    object-position:top;
+}
+
+.icono{
+    width:65px;
+    height:65px;
+    background:#F8F2EF;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icono i{
+    color:#C05353;
+    font-size:32px;
+}
+
+.texto-card h3{
+    font-size:22px;
+    color:#111;
+}
+
+.texto-card p{
+    color:#666;
+    margin-top:4px;
+    font-size:15px;
+}
+
+.servicios{
+    margin-top:35px;
+}
+
+.servicios h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#5F7F10;
+    font-family:Georgia, serif;
+    font-size:32px;
+}
+
+.item{
+    background:#ffffff;
+    border-left:6px solid #C05353;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+.firma{
+    margin-top:50px;
+    text-align:center;
+    padding-bottom:30px;
+}
+
+.firma a{
+    text-decoration:none;
+    color:#666;
+    font-size:13px;
+    transition:0.3s;
+}
+
+.firma a:hover{
+    color:#C05353;
+}
+
+.firma strong{
+    color:#5F7F10;
+}
+
+@media(max-width:480px){
+
+    .logo{
+        width:180px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    .texto-card h3{
+        font-size:18px;
+    }
+
+}
